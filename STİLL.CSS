@@ -1,0 +1,45 @@
+/* Genel Stil */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header Stil */
+  header.hero {
+    background-image: url('makeup-banner.jpg');
+    background-size: cover;
+    color: white;
+    padding: 100px 0;
+  }
+  
+  header.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  header.hero p {
+    font-size: 1.5rem;
+  }
+  
+  /* Ürün Kategorileri */
+  .card img {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  /* İletişim Formu */
+  form .form-label {
+    font-weight: bold;
+  }
+  
+  footer {
+    background-color: #343a40;
+  }
+  
+  footer p {
+    color: white;
+    margin: 0;
+  }
+  
